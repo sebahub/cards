@@ -1,0 +1,228 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.2; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearfix {
+  clear: both; }
+
+.card {
+  width: 100%;
+  height: 800px; }
+  .card .card_back {
+    width: 100%;
+    padding-top: 50px; }
+    .card .card_back .card_frame {
+      border: 1px solid rgba(211, 211, 211, 0.5);
+      max-width: 430px;
+      height: 600px;
+      background-color: white;
+      margin: auto;
+      padding-top: 20px;
+      box-shadow: -5px 5px 10px -4px rgba(0, 0, 0, 0.3); }
+      .card .card_back .card_frame .card_content {
+        width: 390px;
+        height: 560px;
+        background-color: #f1f1f1;
+        margin: auto;
+        padding: 25px; }
+        .card .card_back .card_frame .card_content h2 {
+          font-size: 2rem;
+          font-family: "Raleway", sans-serif;
+          font-weight: 600;
+          text-transform: uppercase;
+          border-top: 3px solid orange;
+          margin-bottom: 25px;
+          width: 40px;
+          margin-top: 20px; }
+        .card .card_back .card_frame .card_content p {
+          font-family: "Raleway", sans-serif;
+          font-size: 2rem;
+          width: 90%;
+          font-weight: 600;
+          margin: auto; }
+        .card .card_back .card_frame .card_content cite {
+          font-family: "Raleway", sans-serif; }
+      .card .card_back .card_frame .qoutel, .card .card_back .card_frame .qouter {
+        font-family: "Gravitas One", cursive;
+        font-size: 60px;
+        height: 40px; }
+      .card .card_back .card_frame .qouter {
+        text-align: right; }
+      .card .card_back .card_frame .more_btn {
+        font-family: "Raleway", sans-serif;
+        background-color: rgba(52, 136, 153, 0.5);
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin: auto;
+        text-transform: uppercase;
+        margin-top: 25px;
+        box-shadow: -2px 2px 10px -4px rgba(0, 0, 0, 0.3);
+        font-weight: 600; }
+
+.card2 {
+  width: 100%;
+  height: 800px;
+  margin-top: 50px; }
+  .card2 .card_back_back2 {
+    width: 350px;
+    background-color: #272727;
+    height: 10px;
+    margin: auto; }
+  .card2 .card_back2 {
+    width: 100%;
+    padding-top: 0px;
+    height: 50px; }
+    .card2 .card_back2 .card_frame2 {
+      border: 1px solid rgba(211, 211, 211, 0.5);
+      max-width: 430px;
+      height: 600px;
+      background-color: white;
+      margin: auto;
+      padding-top: 20px;
+      box-shadow: -5px 5px 10px -4px rgba(0, 0, 0, 0.3); }
+      .card2 .card_back2 .card_frame2 .card_content2 {
+        width: 390px;
+        height: 560px;
+        background-color: #f1f1f1;
+        margin: auto;
+        padding: 25px; }
+        .card2 .card_back2 .card_frame2 .card_content2 .about_back2 {
+          width: 100px;
+          height: 20px;
+          background-color: rgba(255, 165, 0, 0.4);
+          position: relative;
+          top: 35px;
+          left: -10px; }
+        .card2 .card_back2 .card_frame2 .card_content2 h2 {
+          font-size: 2rem;
+          font-family: "Raleway", sans-serif;
+          font-weight: 600;
+          text-transform: uppercase;
+          border-top: none;
+          margin-bottom: 25px;
+          width: 40px;
+          margin-top: 0px;
+          z-index: 99; }
+        .card2 .card_back2 .card_frame2 .card_content2 p {
+          font-family: "Raleway", sans-serif;
+          font-size: 2rem;
+          width: 90%;
+          font-weight: 600;
+          margin: auto; }
+        .card2 .card_back2 .card_frame2 .card_content2 cite {
+          font-family: "Raleway", sans-serif; }
+      .card2 .card_back2 .card_frame2 .qoutel2, .card2 .card_back2 .card_frame2 .qouter2 {
+        font-family: "Gravitas One", cursive;
+        font-size: 60px;
+        height: 40px; }
+      .card2 .card_back2 .card_frame2 .qouter2 {
+        text-align: right; }
+      .card2 .card_back2 .card_frame2 .more_btn2 {
+        font-family: "Raleway", sans-serif;
+        background-color: rgba(52, 136, 153, 0.5);
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin: auto;
+        text-transform: uppercase;
+        margin-top: 25px;
+        box-shadow: -2px 2px 10px -4px rgba(0, 0, 0, 0.3);
+        font-weight: 600;
+        transition: 0.5s ease; }
+        .card2 .card_back2 .card_frame2 .more_btn2:hover {
+          background-color: orange; }
+
+/* POPUP */
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 150px;
+  margin: auto; }
+
+/* The actual popup */
+.popup .popuptext {
+  width: 390px;
+  height: 450px;
+  visibility: hidden;
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: left;
+  padding: 25px 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -195px;
+  line-height: 20px;
+  font-size: 1rem;
+  text-transform: none; }
+  .popup .popuptext:first-letter {
+    font-size: 2.5rem;
+    font-family: serif; }
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #2c2c2c transparent transparent transparent; }
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s; }
+
+/*# sourceMappingURL=style.css.map */
